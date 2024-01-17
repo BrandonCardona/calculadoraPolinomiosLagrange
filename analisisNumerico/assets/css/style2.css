@@ -1,0 +1,75 @@
+p{
+    color: #fafafa;
+}
+
+
+h5{
+    color: #fafafa;
+    font-family: 'Century Gothic', sans-serif;
+    
+}
+
+h1{
+    color: #fafafa;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+}
+
+label{
+    color: #fafafa;
+    font-family: 'Century Gothic', sans-serif;
+}
+body {
+    background-color: #111011;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+#puntoX {
+    background-color: #CCD8D7;
+    color:#111011;
+    font-weight: bold;
+  }
+  #puntoY {
+    background-color: #CCD8D7;
+    color: #111011;
+    font-weight: bold;
+  }
+
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+ul li a, ul li button{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(22, 22, 29);
+    text-decoration: none;
+    position: absolute;
+}
+
+#guardar{
+    left: 7%;
+}
+#volver{
+    left: 15%;
+}
+
+ul li a:hover, ul li button:hover {
+    color: #b9b9b9;
+    transform: scale(1.1);
+}
